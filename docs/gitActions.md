@@ -43,4 +43,4 @@ En este fichero añadiremos las configuraciones de la pipeline:
 - permissions: los permisos del token, para permitir al workflow realizar las operaciones necesarias
 - jobs: define los trabajos que realizará el flujo, en este caso 
 
-Una vez configurado el archivo, hacemos commit y push para subir los cambios y lanzar la primera ejecución del flujo de trabajo.
+Una vez configurado el archivo, hacemos commit y push para subir los cambios y lanzar la primera ejecución del flujo de trabajo. 
