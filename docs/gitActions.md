@@ -44,3 +44,19 @@ En este fichero añadiremos las configuraciones de la pipeline:
 - jobs: define los trabajos que realizará el flujo, en este caso 
 
 Una vez configurado el archivo, hacemos commit y push para subir los cambios y lanzar la primera ejecución del flujo de trabajo. 
+
+![Captura del despliegue de la pipeline](./images/CapturaDeploy.PNG)
+
+## Activación de GitHub Pages
+
+Con la documentación subida y la rama gh-pages generada por el workflow, ya solo nos queda habilitar la visualización de la documentación mediante la opción de *pages* de GitHub:
+
+![Captura de la sección pages](./images/CapturaPagesGH.PNG)
+
+Una vez seleccionada esta opción, el despliegue en las páginas se pondrá en cola, apareciendo lo siguiente cuando termine:
+
+![Captura de la documentación en despliegue](./images/CapturaDeploy.PNG)
+
+Una vez desplegado, se puede acceder a la documentación hosteada en [este enlace](https://francisco-sc.github.io/PPS-Unidad0-Tarea-FranciscoManuelSanchezCollado/)
+
+![Captura del blog ya visible](images/CapturaBlog.PNG)
