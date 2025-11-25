@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: nginx:1-alpine
+    ports:
+      - 8085:80
+    container_name: PPSUnidad0-Tarea_FranciscoManuelSanchezCollado
+    volumes:
+      - C:/Proyectos/PPS-Unidad0-Tarea-FranciscoManuelSanchezCollado:/usr/share/nginx/html
